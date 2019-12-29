@@ -11,5 +11,19 @@ Firstly, to create a jar file a maven project created and groupId, artifactId, v
     <packaging>jar</packaging>
 ```
 
-`$ npm install marked`
+after that run this command
+` $ mvn install`
+
+it will create a jar file to the path of your local maven repository.
+That means you can simply add this jar to your project with writing this 
+```html
+
+    <groupId>edu.advanced</groupId>
+    <artifactId>MavenProject</artifactId>
+    <version>1.0-SNAPSHOT</version>        
+```
+in which project you want to use.
+
+
+For the plugin 
 
